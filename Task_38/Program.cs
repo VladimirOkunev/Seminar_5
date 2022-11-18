@@ -18,7 +18,7 @@ double [] NewArray(int length) // create an array
 
 void SumMaxMin(double [] array) // define sum of the minimal and maximal numbers in the array
 {
-    double max = array[0], min = array[0], sum = 0;
+    double max = array[0], min = array[0];
     foreach(double el in array)
     {
         if(el > max) max = el;
